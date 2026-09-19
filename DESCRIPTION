@@ -1,0 +1,18 @@
+Package: sgev
+Type: Package
+Title: Second-Generation E-Values for Sequential Regression
+Version: 0.2.0
+Authors@R: person("Siyi", "Chen", email = "sche11@lsuhsc.edu",
+    role = c("aut", "cre"), comment = c(ORCID = "0000-0001-8019-8149"))
+Description: Cohortwise nuisance elimination, normal-mixture e-values,
+    practical-null decisions, and information comparisons for sequential
+    Gaussian regression with known variance. Includes scalar profiles,
+    box optimization, and a feasible-dual interface for convex hypotheses.
+    Scores and information matrices are supplied by the user. Companion
+    simulation scripts cover monitoring schedules, nuisance drift, paired
+    practical decisions, cohort size, and stopping-time comparisons.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats
+NeedsCompilation: no
